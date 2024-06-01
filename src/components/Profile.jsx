@@ -1,27 +1,34 @@
-export const Profile = () => {
+import styles from "./Profile.module.css";
+
+export const Profile = (props) => {
+  const familyStyle = {
+    color: "blue",
+    fontSize: "1.2rem",
+  };
+
+  let user = props.function();
+
   return (
     <div className="row">
       <div className="col-md-4">
-        <img
-          src="https://img.freepik.com/free-psd/3d-illustration-bald-person-with-glasses_23-2149436184.jpg"
-          alt="Аватар"
-          width="100%"
-        />
+        <img src={user.avatar} alt="Аватар" width="100%" />
       </div>
       <div className="col-md-8">
-        <p>
-          <span>Id:</span>
-          <span>2</span>
+        <p className={styles.id}>
+          <span>Id: </span>
+          <span>{user.id}</span>
+        </p>
+        <p className={styles.email}>
+          <span>E-mail: </span>
+          <span>{user.email}</span>
         </p>
         <p>
-          <span>E-mail:</span>
-          <span>vania@mail.ru</span>
+          <span style={familyStyle}>Фамилия и имя: </span>
+          <span>
+            {user.lastname} {user.name}
+          </span>
         </p>
-        <p>
-          <span>Фамилия и имя:</span>
-          <span>Иван Иванов</span>
-        </p>
-        <p>Рассказ о себе</p>
+        <p style={{ color: "red", fontSize: "1.5rem" }}>Рассказ о себе</p>
       </div>
     </div>
   );
