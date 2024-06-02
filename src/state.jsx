@@ -34,18 +34,18 @@ const users = {
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnN8ZW58MHx8MHx8fDA%3D&w=300&q=80",
   },
   3: {
-    name: "Диана",
-    lastname: "Смирнова",
+    name: "Диан",
+    lastname: "Смирнов",
     id: 12,
-    email: "diana@ya.ru",
+    email: "dian@ya.ru",
     avatar:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnN8ZW58MHx8MHx8fDA%3D&w=300&q=80",
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlciUyMHBlcnNvbmF8ZW58MHx8MHx8fDA%3D&w=300&q=80",
   },
   4: {
-    name: "Сергей",
-    lastname: "Весенин",
+    name: "Катерина",
+    lastname: "Весенина",
     id: 4,
-    email: "serg@ogo.ru",
+    email: "kate@ogo.ru",
     avatar:
       "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dXNlciUyMHBlcnNvbmF8ZW58MHx8MHx8fDA%3D&w=300&q=80",
   },
