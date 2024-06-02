@@ -6,7 +6,8 @@ export const Profile = (props) => {
     fontSize: "1.2rem",
   };
 
-  let user = props.function();
+  let userId = window.location.pathname.split("/")[2];
+  let user = props.function(userId);
 
   return (
     <div className="row">
